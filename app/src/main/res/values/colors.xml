@@ -5,5 +5,8 @@
     <color name="green">#D800FF</color>
     <color name="grey">#A1A4A6</color>
     <color name="orange">#eb5e28</color>
-    <color name="Vishal">#417BE3</color>
+    <color name="btn_background">#1BB273</color>
+    <color name="card_background">#F6F8F6</color>
+    <color name="tv_login">#69DFAB</color>
+    <color name="tv_create_account">#757780</color>
 </resources>
