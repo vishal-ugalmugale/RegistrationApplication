@@ -57,6 +57,7 @@
                 >
 
             <ImageView
+                android:id="@+id/iv_facebook"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:src="@drawable/facebook"
@@ -64,6 +65,7 @@
                 />
 
             <ImageView
+                android:id="@+id/iv_twitter"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:src="@drawable/twitter_logo"
@@ -71,6 +73,7 @@
                 />
 
             <ImageView
+                android:id="@+id/iv_google_plus"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:src="@drawable/google_logo"
@@ -101,6 +104,7 @@
                     >
 
                     <EditText
+                        android:id="@+id/et_email"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Email"
@@ -124,6 +128,7 @@
                     >
 
                     <EditText
+                        android:id="@+id/et_name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Name"
@@ -148,6 +153,7 @@
                     >
 
                     <EditText
+                        android:id="@+id/et_password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Password"
@@ -157,6 +163,7 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <Button
+                    android:id="@+id/btn_register"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="60dp"
@@ -185,6 +192,7 @@
                     />
 
                     <TextView
+                        android:id="@+id/tv_login"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Login here"
